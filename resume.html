@@ -1,51 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Resume</title>
     <head>
+        <title>Resume</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
         <nav>
             <ul>
-                <li><a href="resume.html">Resume</a></li>&nbsp;
-                <li><a href="cover-letter.html">Cover Letter</a></li>&nbsp;
-                <li><a href="career-goals.html">Career Goals</a></li>&nbsp;
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="cover-letter.html">Cover Letter</a></li>
+                <li><a href="career-goals.html">Career Goals</a></li>
             </ul>
-    </head>
-    <header>
-        <h1 class="name">Terry Ellison</h1>
-        <h2>Software Developer</h2>
-        <p>Email: <a href="mailto:terry.ellison@example.com">terry.ellison@example.com</a> | Phone: (555) 555-CODE | <a href="#">LinkedIn</a></p>
-    </header>
-    <body>
-        <main>
-            <h2>Skills</h2>
-            <table>
-                <tr>
-                    <th>Skill</th>
-                    <th>Category</th>
-                    <th>Years</th>
-                    <th>Proficiency</th>
-                </tr>
-                <tr>
-                    <td>C++</td>
-                    <td>Computer Programming</td>
-                    <td>10</td>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <td>Technical Writing</td>
-                    <td>Communication</td>
-                    <td>16</td>
-                    <td>Very High</td>
-                </tr>
-                <tr>
-                    <td>Public Speaking</td>
-                    <td>Communication</td>
-                    <td>11</td>
-                    <td>Moderate</td>
-                </tr>
-            </table>
+        </nav>
+        <header class="resume-header">
+            <h1 class="name">Terry Ellison</h1>
+            <h2>Software Engineer</h2>
+            <p>
+                Email: <a href="mailto:terry.ellison@example.com">terry.ellison@example.com</a> | <a href="#">LinkedIn</a>
+                <br>Phone: (555) 555-CODE
+            </p>
+        </header>
+        <main id="main-content">
+            <!-- Summary -->
+             <section class="summary">
+                <p>I am a <strong>professional</strong> Software Engineer with 7 years of experience in the field, primarily
+                    in .NET and C++. I've worked in .NET desktop, backend and full-stack web development, along with 
+                    Windows programming and native C++. 
+                </p>
+             </section>
+            <hr>
+            <!-- Skills table-->
+            <section class="skills">
+                <h2>Skills</h2>
+                <table>
+                    <caption>My most pertinent skills</caption>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Category</th>
+                        <th>Years</th>
+                        <th>Proficiency</th>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>Computer Programming</td>
+                        <td>10</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td>Technical Writing</td>
+                        <td>Communication</td>
+                        <td>16</td>
+                        <td>Very High</td>
+                    </tr>
+                    <tr>
+                        <td>Public Speaking</td>
+                        <td>Communication</td>
+                        <td>11</td>
+                        <td>Moderate</td>
+                    </tr>
+                </table>
+            </section>
+            <!-- End Skills-->
+
+            <section class="experience">
+                <h2 class="section-title">Experience</h2>
+                <article class="job-entry">
+                    <div class="job-title">
+                        <h3>Tools Software Engineer II</h3>
+                        <span>Feb 2025 - Present</span>
+                    </div>
+                    <div class="job-location">A video game company, Fooville, Florida</div>
+                    <ul>
+                        <li>Developing tools and supporting workflows as part of an unannounced game project</li>
+                        <li>Implementing various game features across different domains in C++</li>
+                        <li>Executing and supporting Frostbite game engine upgrades</li>
+                        <li>Developing automation using Jenkins in conjunction with internal toolsets</li>
+                        <li>Designing and implementing various developer workflow features</li>
+                        <li>Coordinating and collaborating with outside teams across Electronic Arts</li>
+                        <li>Providing general support for a game team of 100+ people</li>
+                    </ul>
+                </article>
+
+                <article class="job-entry">
+                    <div class="job-title">
+                        <h3>Software Engineer</h3>
+                        <span>Oct 2021 - July 2024</span>
+                    </div>
+                    <div class="job-location">Microsoft (Remote)</div>
+                    <ul>
+                        <li>Developed and maintained automated integration testing infrastructure for Unreal Engine</li>
+                        <li>Manually validated Unreal Engine samples targeting Xbox and PC</li>
+                        <li>Analyzed and debugged runtime issues in Unreal Engine using WinDBG and internal tools</li>
+                        <li>Architected and implemented enhancements to existing Unreal Engine test infrastructure</li>
+                        <li>Advised Microsoft engineers on Azure best practices, and reduced our team&apos;s Azure spending by optimizing usage</li>
+                        <li>Worked with the HLSL development team to identify breaking changes in the DirectX API and test remediation</li>
+                        <li>Coordinated with various teams across Microsoft to ensure stability of Game Development Kit releases</li>
+                        <li>Worked with the Xbox Advanced Technology Group to identify remediation for GDK issues within Unreal Engine</li>
+                    </ul>
+                </article>
+
+                <article class="job-entry">
+                    <div class="job-title">
+                        <h3>Software Engineer</h3>
+                        <span>March 2021 - Oct 2021</span>
+                    </div>
+                    <div class="job-location">Tech Data Corporation, Clearwater, Florida</div>
+                    <ul>
+                        <li>Conducted full stack web development for a Business-to-Business marketplace platform</li>
+                        <li>Maintained documentation on development processes</li>
+                        <li>Led Scrum / Agile ceremonies (Standup, Retrospective, Grooming, etc.)</li>
+                        <li>Delegated work to team members as needed</li>
+                        <li>Conducted interviews for adjacent roles</li>
+                        <li>Stood in for lead developer on planning and progress update meetings</li>
+                        <li>Mentored an intern in the software development lifecycle, provided feedback on assigned tasks, reported progress to management</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="education">
+                <h2 class="section-title">Education</h2>
+                <div>
+                    <div class="school-title">
+                        <h3>Western Governors University</h3>
+                        <span>Dec 2025 - Present</span>
+                    </div>
+                    <em>Bachelor of Science - Computer Science</em>
+                </div>
+                <div>
+                    <div class="school-title">
+                        <h3>Saint Petersburg College</h3>
+                        <span>Aug 2015 - Dec 2018</span>
+                    </div>
+                    <em>Associate of Science - Computer Programming and Analysis</em>
+                </div>
+            </section>
         </main>
+        <footer>
+            <div id="footer"></div>
+            <script>
+                    const date = new Date();
+                    document.getElementById("footer").innerHTML = '&copy;' + date.toLocaleString('en-US', {
+                        weekday: 'short',
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric'
+                    });
+                    console.log("Hello world!");
+                </script>
+        </footer>
     </body>
 </html>

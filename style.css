@@ -1,6 +1,88 @@
-name {
-    font-size: 2em;
-    font-weight: bold;
-    font-family: 'Arial', sans-serif;
+/* universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* element selector style rule */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: antiquewhite;
+}
+
+/* descendent selector */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 0%;
+}
+
+nav ul a:hover { color: green;}
+
+table {
+    border: 5px dashed black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table th {
+    border: 2px;
+    border-style: double;
+    border-color: green;
+}
+
+table td {
+    border: 2px;
+    border-style: double;
+    border-color: green;
+}
+
+.resume-header {
     text-align: center;
+}
+
+.job-entry ul {
+    list-style-type: "- ";
+    padding-left: 5px;
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.job-title span {
+    font-style: italic;
+}
+
+.job-location {
+    font-style: italic;
+}
+
+.skills {
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+}
+
+#main-content {
+    max-width: fit-content;
+    margin: 10px;
+}
+
+.school-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 5px;
 }
