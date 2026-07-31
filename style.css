@@ -68,12 +68,12 @@ table td {
     text-align: center;
 }
 .section-title {
-    text-align: center;
+    text-align: left;
 }
 
 #main-content {
-    max-width: fit-content;
-    margin: 10px;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 .school-title {
