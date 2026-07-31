@@ -1,16 +1,13 @@
-/* universal selector */
 * {
     box-sizing: border-box;
 }
 
-/* element selector style rule */
 body {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     background-color: antiquewhite;
 }
 
-/* descendent selector */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -81,6 +78,11 @@ main {
 #footer {
     text-align: center;
     margin-top: 5px;
+}
+
+#cover-letter-header {
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 #salutation {
