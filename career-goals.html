@@ -14,9 +14,78 @@
                 <li><a href="career-goals.html">Career Goals</a></li>
             </ul>
         </nav>
-        
-        <main>
+        <header>
+            <div id="goals-header">
+                <h1>My Career Goals</h1>
+                <img src="media/headshot.jpeg" alt="My headshot"/>
+            </div>
+        </header>
+        <main id="career-goals">
+            <p>My career goals are:</p>
+            <h2>Short-term (1 - 2 years)</h2>
+            <ul>
+                <li>Graduate with my Bachelor of Science in Computer Science degree from WGU</li>
+                <li>Perform well at my job and increase my impact</li>
+            </ul>
+            <h2>Mid-term (3 - 5 years)</h2>
+            <ul>
+                <li>Become a senior / lead engineer</li>
+                <li>Participate in research and publish papers</li>
+                <li>Help ship games</li>
+            </ul>
+            <h2>Long-term</h2>
+            <ul>
+                <li>Attain a Doctorate in Computer Science</li>
+                <li>Become a Computer Science professor</li>
+                <li>Mentor newer software engineers</li>
+                <li>Found a game studio</li>
+            </ul>
+            
+            <p>
+                I recorded an audio clip of my overall career goals here:
+            </p>
+            <audio src="media/career-goals.mp3" controls></audio>
+            <p>
+                Here is a short demo of a Calculator app I built using C++:
+            </p>
+            <video src="media/calculator-demo.mp4" controls></video>
 
+            <form action="https://wp.zybooks.com/form-viewer.php">
+                <label for="first-name">First name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="John"><br>
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Smith"><br>
+                <label for="company-name">Company name:</label>
+                <input type="text" id="company-name" name="company-name" placeholder="Contoso Corporation"><br>
+                <label for="email-address">Email address:</label>
+                <input type="email" id="email-address" name="email-address" placeholder="name@contoso.com"><br>
+                <label for="phone-number">Phone number:</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="+1 (555) 555-5555"><br>
+                <label for="message">Message:</label><br>
+                <textarea 
+                    id="message" 
+                    name="message"
+                    rows="5" 
+                    cols="50"
+                    placeholder="Enter your message here:"></textarea>
+
+                <p>Best contact time:</p>
+                <input type="radio" id="am" name="contact_time" value="a.m.">
+                <label for="am">a.m.</label><br>
+                <input type="radio" id="pm" name="contact_time" value="p.m.">
+                <label for="pm">p.m.</label><br>
+                <input type="radio" id="anytime" name="contact_time" value="anytime">
+                <label for="anytime">Anytime</label>
+
+                <label for="contact-method">Method: </label>
+                <select name="contact-method" id="contact-method">
+                    <option>Phone</option>
+                    <option>Email</option>
+                    <option>Text</option>
+                </select><br>
+
+                <br><input type="submit" value="Submit">
+            </form>
         </main>
         
         <footer>

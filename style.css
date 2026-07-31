@@ -86,3 +86,19 @@ main {
 #salutation {
     font-style: italic;
 }
+
+#goals-header { 
+    text-align: left;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#career-goals { 
+    text-align: left;
+}
+
+textarea { text-align: left; }
+
+img { max-width: 100%; }
+
+video { max-width: 100%;}
