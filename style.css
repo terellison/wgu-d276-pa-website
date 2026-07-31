@@ -30,15 +30,11 @@ table {
 }
 
 table th {
-    border: 2px;
-    border-style: double;
-    border-color: green;
+    border: 2px dashed green;
 }
 
 table td {
-    border: 2px;
-    border-style: double;
-    border-color: green;
+    border: 2px dashed green;
 }
 
 .resume-header {
@@ -85,4 +81,8 @@ table td {
 #footer {
     text-align: center;
     margin-top: 5px;
+}
+
+#salutation {
+    font-style: italic;
 }
