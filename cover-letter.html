@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cover Letter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="cover-letter.html">Cover Letter</a></li>
+                <li><a href="career-goals.html">Career Goals</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+
+        </main>
+        
+        <footer>
+            <div id="footer"></div>
+            <script>
+                const date = new Date();
+                document.getElementById("footer").innerHTML = '&copy; ' + date.toLocaleString('en-US', {
+                    weekday: 'short',
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+                console.log("Hello world!");
+            </script>
+        </footer>
+    </body>
+</html>
