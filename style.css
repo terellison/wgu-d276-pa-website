@@ -67,7 +67,7 @@ table td {
     text-align: left;
 }
 
-#main-content {
+main {
     max-width: 750px;
     margin: 0 auto;
 }
